@@ -67,6 +67,9 @@ if (isset($_GET['ajax'])) {
     <link rel="stylesheet" href="assets/css/tasks.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/tasks.js"></script>
+
+
 </head>
 <body>
 <div class="container">
@@ -90,11 +93,8 @@ if (isset($_GET['ajax'])) {
     </div>
 </div>
 <script>$( document ).ready(function() {
- $.ajax({
-        url: 'assets/js/tasks.js',
-        dataType: "script",
-        success: getAll();
-    });
+ getAll()
+
 });</script>
 </body>
 </html>
