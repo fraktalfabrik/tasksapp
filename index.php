@@ -59,7 +59,7 @@ if (isset($_GET['ajax'])) {
     die(json_encode($ret));
 }
 // ============ END AJAX ============================================================
-favicon.ico
+
 
 ?><!DOCTYPE html><html><head><title>My Tasks</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
